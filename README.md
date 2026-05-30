@@ -1,13 +1,14 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Nyckelharpa
 
-Status: L1 V5 concept packet; keyed-fiddle mechanism study only, not
-fabrication-ready.
+Status: L2 V5 shop-planning packet; keyed-fiddle mechanism study only, not
+fabrication-ready and not measured authority.
 
-This repository is a V5 L1 build-packet seed for a nyckelharpa-inspired keyed
-fiddle. The design centers on a bowed string body, a keybox with sliding keys,
-wooden tangents that stop the melody strings, and sympathetic strings routed
-under or through the keybox so they can resonate without being directly bowed.
+This repository is a V5 L2 shop-planning packet seed for a
+nyckelharpa-inspired keyed fiddle. The design centers on a bowed string body, a
+keybox with sliding keys, wooden tangents that stop the melody strings, and
+sympathetic strings routed under or through the keybox so they can resonate
+without being directly bowed.
 
 This packet is intentionally conservative. It does not release body dimensions,
 scale length, tuning, string gauges, bridge geometry, tangent coordinates, key
@@ -19,6 +20,7 @@ reviewed design table exists.
 
 - `design.md` - mechanism, parametric intent, and measurement gates.
 - `bom.csv` - estimated subsystem list with pending measurement authority.
+- `cut-list.csv` - estimated shop-planning blanks and test-rig parts.
 - `decision-record.md` - decisions, assumptions, and open questions.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
@@ -36,7 +38,8 @@ reviewed design table exists.
 
 ## Readiness Boundary
 
-L1 means intent, risks, and subsystem interfaces are documented. Promotion to
-L2 requires reviewed parameters, measured or sourced reference constraints, and
-prototype test plans. L3 or stronger requires validated geometry and measured
-setup evidence.
+L2 here means the repo now separates subsystems, shop-planning parts, and
+prototype gates well enough for careful review of the intended build sequence.
+It still does not release fabrication dimensions, CAD, DXF, tuning, string
+gauges, or acoustic predictions. L3 or stronger requires validated geometry and
+measured setup evidence.
