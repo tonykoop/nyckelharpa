@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Nyckelharpa
 
-Status: L2 V5 shop-planning packet; keyed-fiddle mechanism study only, not
+Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
 fabrication-ready and not measured authority.
 
 This repository is a V5 L2 shop-planning packet seed for a
