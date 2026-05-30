@@ -1,0 +1,12 @@
+item_id,subsystem,component,quantity_basis,authority,notes
+BOM-001,bowed_string_core,melody strings,estimate_pending_measurement,pending_measurement,"Directly bowed strings; count material gauge and tuning are not released."
+BOM-002,bowed_string_core,bridge blank,estimate_pending_measurement,pending_measurement,"Bridge concept only; crown height feet and string spacing require measurement."
+BOM-003,key_action,keybox structure,estimate_pending_measurement,pending_measurement,"Stable guide structure for sliding keys; dimensions and material remain open."
+BOM-004,key_action,sliding keys,estimate_pending_measurement,pending_measurement,"Keys carry tangents and require return and clearance testing."
+BOM-005,key_action,wooden tangents,estimate_pending_measurement,pending_measurement,"Adjustable tangent elements; contact geometry is the main prototype variable."
+BOM-006,sympathetic_strings,sympathetic strings,estimate_pending_measurement,pending_measurement,"Resonance strings routed under or through keybox; count and tuning are not specified."
+BOM-007,sympathetic_strings,sympathetic string nut and bridge path,estimate_pending_measurement,pending_measurement,"Separate support path with clearance from keys and tangents."
+BOM-008,body,body and soundboard blank,estimate_pending_measurement,pending_measurement,"Body concept only; outline bracing and materials require review."
+BOM-009,hardware,pegs or tuning hardware,estimate_pending_measurement,pending_measurement,"Hardware family pending string count service access and tuning approach."
+BOM-010,hardware,tailpiece or string anchoring,estimate_pending_measurement,pending_measurement,"Anchor strategy must separate melody and sympathetic setup needs."
+BOM-011,documentation,measurement log,estimate_pending_measurement,concept_only,"Future prototype log for key travel tangent contact clearance and resonance."
