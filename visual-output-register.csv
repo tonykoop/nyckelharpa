@@ -6,3 +6,5 @@ cut-list,cut-list.csv,design_table,concept,pending_measurement,design.md,none,fa
 decision-record,decision-record.md,measurement_template,story,concept_only,design.md,none,false,"Captures L2 decisions assumptions shop-planning choices and open questions for future review."
 mcp-session-log,cad/mcp-session-log.md,measurement_template,build_log,concept_only,,none,false,"Records QMD Step 0 provenance and absence of MCP/CAD authoring."
 future-cad,cad/,cad,concept,pending_measurement,design.md,none,false,"Reserved for future CAD after measured or reviewed parameters exist; no CAD geometry is present."
+nyckelharpa-starter-wl,nyckelharpa-starter.wl,source_code,reference,reference_only,wolfram/nyckelharpa-wolfram-model.wl,none,false,"Thin Wolfram entry point only; pending measurement, not fabrication authority."
+nyckelharpa-wolfram-model,wolfram/nyckelharpa-wolfram-model.wl,source_code,reference,reference_only,docs/parametric-design-table.md,none,false,"Parametric symbolic Wolfram model with estimate placeholders only; pending measurement, not fabrication authority."
