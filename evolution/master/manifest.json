@@ -1,0 +1,34 @@
+{
+  "product": "nyckelharpa",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/nyckelharpa.scad",
+      "format": "openscad-source",
+      "sha256": "c8904d8189c089e4b1b54e7988062284b532b1e78b4c4f5ed916888c9c94f920",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Parametric structural-envelope scaffold; symbolic relationships as formulas, render-only placeholder leaf values (packet is non-dimensional)."
+    },
+    {
+      "path": "docs/parametric-design-table.md",
+      "format": "design-table",
+      "sha256": "660412c075a39a5ab3015878a9f4f3711ae2b9769edc06698e82e36c25d5ae6e",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Symbolic relationship table; every variable pending_measurement — no absolute dimensions."
+    },
+    {
+      "path": "wolfram/nyckelharpa-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "b25f29079b87714eee8c054b12dedaa0430302bdec1a9e21482947629111086e",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); estimate placeholders; L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD envelope scaffold + symbolic design table are the current masters; no STEP export (SolidWorks export is Windows-side, out of scope this pass). Packet is deliberately non-dimensional — no fabrication authority. Gate A (Alpha workspace compile) NOT yet run."
+}
