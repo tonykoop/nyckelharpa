@@ -1,8 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Nyckelharpa
 
-Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
-fabrication-ready and not measured authority.
+**Status:** L2 V5 build-packet candidate
 
 This repository is a V5 L2 shop-planning packet seed for a
 nyckelharpa-inspired keyed fiddle. The design centers on a bowed string body, a
@@ -24,6 +23,13 @@ reviewed design table exists.
 - `decision-record.md` - decisions, assumptions, and open questions.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
+- `sourcing.csv`, `validation.csv`, `risks.md`, `drawing-brief.md` - baseline
+  shop-packet scaffolds (spec-first, non-dimensional, `pending_measurement`).
+- `cad/nyckelharpa.scad` - parametric structural-envelope scaffold (symbolic
+  relationships as formulas, render-only placeholder values); authority
+  `pending_measurement`, not fabrication authority.
+- `evolution/` - evolution-pipeline Stage 0 intake: master manifest,
+  design-intent, and revision register (Gate A not yet run).
 
 ## Core Mechanisms
 
@@ -37,6 +43,11 @@ reviewed design table exists.
   treated as one coupled mechanical system.
 
 ## Readiness Boundary
+
+Deepened toward L3 (protocols, tolerances, assembly, FMEA in `docs/`) but not
+promoted: L3 requires fabrication-authority CAD/DXF and validator evidence, and
+this packet is deliberately non-dimensional, so it stays **L2 V5 build-packet
+candidate**.
 
 L2 here means the repo now separates subsystems, shop-planning parts, and
 prototype gates well enough for careful review of the intended build sequence.

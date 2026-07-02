@@ -1,0 +1,9 @@
+<!-- spec-first sourcing; no released dimensions, no verified prices; pending_measurement -->
+item_id,subsystem,spec_basis,candidate_source_class,authority,status,notes
+SRC-BODY,body,soundbox/soundboard + neck stock,tonewood/hardwood supplier,pending_measurement,spec_pending,"Body datum set D_body pending; no dimensions released."
+SRC-MELODY,bowed_string_core,melody strings + nut/bridge/tail reference stock,string + luthier supply,pending_measurement,spec_pending,"Count, gauge, tuning, scale L_melody not released."
+SRC-SYMPATHETIC,sympathetic,sympathetic strings + under-keybox routing hardware,string supply,pending_measurement,spec_pending,"Sympathetic paths P_sym pending; routing/service access open."
+SRC-KEYBOX,key_action,keybox cassette shell + guide liner stock,luthier/hardware supply,pending_measurement,spec_pending,"Keybox datum D_keybox, guide clearance stack pending."
+SRC-KEYS,key_action,sliding key blanks + tangent stock,hardwood supply,pending_measurement,spec_pending,"Key pitch K_pitch, travel T_key, tangent geometry pending."
+SRC-BRIDGE,bowed_string_core,bridge blank (crown pending),luthier supply,pending_measurement,spec_pending,"B_crown(x) = f(melody paths, bow clearance); no crown value."
+SRC-FITTINGS,fittings,pegs/tuners, tailpiece, fine tuners,hardware supply,pending_measurement,spec_pending,"Load-path fittings; sizes pending structural review."

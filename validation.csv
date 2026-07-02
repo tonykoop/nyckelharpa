@@ -1,0 +1,11 @@
+<!-- measurement gates; acceptance bases qualitative until a rubric + measured targets exist; pending_measurement -->
+gate_id,subsystem,measurement,acceptance_basis,authority,status,notes
+VAL-001,bowed_string_core,melody string path (nut/tangent/bridge datums),path measured and repeatable,pending_measurement,gate_open,"Path_melody[i] = curve(nut, tangent, bridge, height); docs/parametric-design-table.md."
+VAL-002,key_action,tangent contact position + height,stops at intended relation; contact allowance held,pending_measurement,gate_open,"P_tangent[j], H_tangent[j] on one-key rig."
+VAL-003,key_action,useful key travel + return,engagement + overtravel + stop compression; reliable return,pending_measurement,gate_open,"T_key[j]; bench keybox + one-key rig."
+VAL-004,key_action,guide clearance stack (side/vertical/finish/season),free motion without racking across humidity,pending_measurement,gate_open,"C_guide_total[j]; fit trials after finish/humidity strategy."
+VAL-005,key_action,released tangent clearance under string motion,tangent clears released string,pending_measurement,gate_open,"C_release[j]; open-keybox release test."
+VAL-006,sympathetic,sympathetic clearance to key/tangent envelopes,no fouling through full key travel,pending_measurement,gate_open,"C_sym_key/C_sym_tangent; transparent/open keybox sweep."
+VAL-007,bowed_string_core,bridge crown vs bow clearance,each melody string bowable without neighbor strike,pending_measurement,gate_open,"B_crown(x) = f(paths, bow angle); no crown value released."
+VAL-008,service,service access + keybox reinstall repeatability,tool access avoids envelopes; datum return within range,pending_measurement,gate_open,"service_access_ok; datum_return_error on removal/reinstall."
+VAL-009,body,tailpiece/neck load path,string loads carried by body datums,pending_measurement,gate_open,"Structural review after string plan."
